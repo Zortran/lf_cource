@@ -1,0 +1,9 @@
+---
+- name: Prod web
+  hosts: web
+  roles:
+      - common
+- name: Prod db
+  hosts: db
+  roles:
+      - common

@@ -1,0 +1,9 @@
+---
+- name: Stage web
+  hosts: web
+  roles:
+      - common
+- name: Stage db
+  hosts: db
+  roles:
+      - common
