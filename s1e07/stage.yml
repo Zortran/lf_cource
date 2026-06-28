@@ -3,7 +3,9 @@
   hosts: web
   roles:
       - common
+      - users
 - name: Stage db
   hosts: db
   roles:
       - common
+      - users

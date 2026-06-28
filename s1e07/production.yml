@@ -3,7 +3,9 @@
   hosts: web
   roles:
       - common
+      - users
 - name: Prod db
   hosts: db
   roles:
       - common
+      - users
