@@ -1,0 +1,3 @@
+[submodule "s1e07-roles"]
+	path = s1e07/roles
+	url = https://github.com/Zortran/lf_cource_roles
